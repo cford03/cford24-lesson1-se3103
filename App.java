@@ -7,7 +7,7 @@ public class App{
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         win.init();
 
-        
+        win.pack();
         win.setVisible(true);
     }
 }
