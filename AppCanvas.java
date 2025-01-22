@@ -15,6 +15,7 @@ public class AppCanvas extends JPanel {
     
     @Override
     public void paintComponent(Graphics g){
+        super.paintComponent(g); //very important, do not forget!!
         var font = new Font("Courier New",Font.BOLD,24);
         g.setFont(font);
 
